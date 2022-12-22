@@ -1,6 +1,15 @@
 # Homebanking
 Java Spring boot OpenAPI Micro services 
 
+PartySerive Use - > MariaDB
+Account Service connects -> Elastic Search 
+Transaction Service Connects to -> Redis 
+
+RUN :::::::::::::::::::::::::: MariaDB,  Elastic Search  and Redis on Docker Destop 
+
+
+
+![image](https://user-images.githubusercontent.com/18755732/209125027-d8d8a29d-8e99-49ed-864e-3d948e732a70.png)
 
 docker run -p 127.0.0.1:3306:3306  --name mdb -e MARIADB_ROOT_PASSWORD=root -d mariadb:latest
 
